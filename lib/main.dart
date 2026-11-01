@@ -40,6 +40,16 @@ Stack(
     ),
   ],
 ),
+Row(
+  mainAxisAlignment: MainAxisAlignment.spaceAround,
+  crossAxisAlignment: CrossAxisAlignment.center,
+  children: [
+    Icon(Icons.home, color: Colors.blue, size: 40),
+    Icon(Icons.star, color: Colors.amber, size: 40),
+    Icon(Icons.settings, color: Colors.grey, size: 40),
+    Icon(Icons.thumb_up, color: Colors.green, size: 40),
+  ],
+),
       ],
     ),
   ), // Center
