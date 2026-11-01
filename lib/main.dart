@@ -17,10 +17,10 @@ class MainApp extends StatelessWidget {
         Text('Hello World!'),
       Text('Bienvenue dans mon application Flutter !'),
       Container(
-  margin: EdgeInsets.all(20),
-  padding: EdgeInsets.all(16),
+  margin: EdgeInsets.all(10),
+  padding: EdgeInsets.all(24),
   decoration: BoxDecoration(
-    color: Colors.green,
+    color: Colors.blue,
     borderRadius: BorderRadius.circular(20),
   ),
   child: Text(
@@ -52,7 +52,7 @@ Row(
 ),
 Column(
   mainAxisAlignment: MainAxisAlignment.center,
-  crossAxisAlignment: CrossAxisAlignment.center,
+  crossAxisAlignment: CrossAxisAlignment.start,
   children: [
     Text('Titre principal', style: TextStyle(fontSize: 26)),
     SizedBox(height: 20),
